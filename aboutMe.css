@@ -1,0 +1,100 @@
+body {
+	color: #222222;
+	font-size: 1em;
+	font-family: "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.masthead-heading,
+.masthead-intro,
+.content-footer {
+	text-align: center;
+}
+
+.masthead {
+	padding: 6em 0; /*the first number value (6em) presents padding top and bottom. the second for right and left..."0" means default, which stretches across the screen*/
+	background-image: url("pexels-photo-112989-large.jpeg"); /*not sure how to rezise the photo so that it will fit*/
+	background-size: cover;
+	border-top: solid 1em black;
+	background-repeat: no-repeat;
+	color: #FFCF33;
+}
+
+.masthead-intro {
+	margin-bottom: 0.1em;
+	font-family: "Gentium Book Basic", Georgia, serif;
+	font-size: 2em;
+}
+
+.masthead-heading {
+	margin-top: -0.2em;
+	font-family: "Open Sans", "Helvetica Neue", sans-serif;
+	font-weight: bold;
+	font-size: 6em;
+	letter-spacing: -0.02em;
+	text-transform: uppercase;
+	text-shadow: 0px 3px 0px #ddd;
+
+}
+
+.introduction-section,
+.location-section,
+.questions-section {
+	max-width: 38em;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 2em;
+
+}
+
+.introduction-section > h1,
+.location-section > h1,
+.questions-section > h1{
+	text-shadow: 0px 3px 0px #ddd;
+}
+
+.introduction-section > p,
+.location-section > p,
+.content-footer > p {
+	font-weight: 300;
+	letter-spacing: 0.05em;
+}
+
+.questions-section > h2 {
+	font-family: "Gentium Book Basic", Georgia, serif;
+	font-size: 1.2em;
+	font-weight: bold;
+	margin: 2em 0 1em 0;
+}
+
+.section > h1 {
+	margin-top: 2em;
+}
+
+.social > li{
+	display: inline-block;
+}
+
+.content-footer {
+	color: white;
+	background-color: black;
+	/*background-color: #594F49;*/
+
+}
+
+a {
+	font-weight: bold;
+	text-decoration: none;
+	color: #FFCF33;
+}
+
+a:hover {
+	color: #FFE799;
+}
+
+a:visited {
+	color: #D1A000;
+}
+
+.questions-section > h2 {
+	text-decoration: underline;
+}
