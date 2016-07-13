@@ -2,6 +2,7 @@ body {
 	color: #222222;
 	font-size: 1em;
 	font-family: "Open Sans", "Helvetica Neue", sans-serif;
+	/*background-color: #eee;*/	
 }
 
 .masthead-heading,
@@ -81,6 +82,20 @@ body {
 
 }
 
+@media only screen and (max-width: 500px) {
+	.content-footer {
+		padding-top: .625rem;
+	}
+	
+	.content-footer > p {
+		font-size: .812rem;
+	}
+	.content-footer > ul > li {
+		font-size: .812rem;
+	}
+
+}
+
 a {
 	font-weight: bold;
 	text-decoration: none;
@@ -97,4 +112,14 @@ a:visited {
 
 .questions-section > h2 {
 	text-decoration: underline;
+}
+
+@media only screen and (max-width: 500px) {
+    .masthead {
+    	padding: 3em 0;
+    }
+	
+    .masthead-heading {
+        font-size: 3em;
+    }
 }
